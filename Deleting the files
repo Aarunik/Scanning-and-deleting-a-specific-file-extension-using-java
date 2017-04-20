@@ -3,7 +3,7 @@ import java.io.*;
 public class FileChecker {
 
    private static final String FILE_DIR = "C:\\Users\\hp\\Desktop";
-   private static final String FILE_TEXT_EXT = ".bat.gz";
+   private static final String FILE_TEXT_EXT = ".";     \\file extension
 
    public static void main(String args[]) {
 	new FileChecker().deleteFile(FILE_DIR,FILE_TEXT_EXT);
