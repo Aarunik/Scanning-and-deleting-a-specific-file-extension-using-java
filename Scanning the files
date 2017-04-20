@@ -70,7 +70,7 @@ public static void main(String[] args)
 
         Path startingDir = Paths.get(s);
 
-        String pattern = "*.bat.gz";                      //Finding files of this extension
+        String pattern = "*.";                      //Finding files of this extension
 
         Finder finder = new Finder(pattern);
         Files.walkFileTree(startingDir, finder);
